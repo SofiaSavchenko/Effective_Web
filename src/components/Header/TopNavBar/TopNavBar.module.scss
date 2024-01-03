@@ -1,0 +1,24 @@
+@import 'src/styles';
+
+.container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 40px;
+
+    .elem {
+        font-size: 18;
+        font-weight: 400;
+        color: $color-topbar-not-selected;
+    }
+
+    .elem:hover {
+        text-decoration: underline;
+        cursor: pointer;
+    }
+
+    .selected {
+        color: $color-topbar-selected;
+        font-weight: 700;
+    }
+}
