@@ -1,0 +1,28 @@
+@import 'src/styles';
+
+.container {
+    position: relative;
+
+    .drop {
+        position: absolute;
+        width: 1120px;
+        top: -259px;
+        left: -506px;
+        z-index: -1;
+    }
+
+    .points {
+        position: absolute;
+        height: 115px;
+        top: 287px;
+        left: 97%;
+        z-index: -1;
+    }
+
+    .elements {
+        display: grid;
+        grid-template-columns: 350px 350px 350px;
+        column-gap: 37px;
+        row-gap: 37px;
+    }
+}
