@@ -1,0 +1,75 @@
+@import 'src/styles';
+
+.wrap {
+    display: flex;
+    flex-direction: column;
+    width: 350px;
+    border-radius: 20px;
+    box-shadow: 10px 40px 50px 0px $color-shadow;
+    background-color: $color-back;
+
+    .image {
+        width: 100%;
+        border-radius: 20px 20px 0 0;
+    }
+
+    .description {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: start;
+        box-sizing: border-box;
+        padding: 21px 51px 35px 33px;
+
+        .textBlock {
+            display: flex;
+            flex-direction: column;
+            gap: 12px;
+
+            .title {
+                text-align: left;
+                color: $color-text-title;
+                font-size: 21px;
+                font-weight: 700;
+                line-height: 32px;
+            }
+
+            .text {
+                text-align: left;
+                color: $color-text;
+                font-size: 16px;
+                font-weight: 300;
+                line-height: 28px;
+            }
+        }
+
+        .button {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background-color: transparent;
+            border: none;
+            padding: 0px;
+            margin: 0px;
+    
+            .container {
+                display: flex;
+                flex-direction: row;
+                align-items: center;
+                gap: 15px;
+    
+                .text {
+                    font-size: 17px;
+                    font-weight: 600;
+                    line-height: 28px;
+                    color: $color-button-back;
+                }
+    
+                .icon {
+                    height: 15px;
+                }
+            }
+        }
+
+    }
+}

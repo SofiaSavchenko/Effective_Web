@@ -3,6 +3,7 @@ import Service from "./Service/Service";
 import Provider from "./Provider/Provider";
 import Download from "./Download/Download";
 import Customer from "./Customer/Customer";
+import Articles from "./Articles/Articles";
 
 const Main = () => {
     return <>
@@ -18,6 +19,9 @@ const Main = () => {
         </div>
         <div style={{ marginTop: '266px' }}>
             <Customer/>
+        </div>
+        <div style={{ marginTop: '222px', marginBottom: '130px' }}>
+            <Articles/>
         </div>
 
     </>
