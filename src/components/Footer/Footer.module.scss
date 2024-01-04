@@ -1,0 +1,101 @@
+@import 'src/styles';
+
+.wrap {
+
+    box-sizing: border-box;
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 118px 240px 109px 190px;
+    width: 100%;
+    height: 432px;
+    background: linear-gradient(180deg, $color-gradient-2 0%, $color-gradient-1 100%);
+
+    .description {
+
+        display: flex;
+        flex-direction: column;
+        align-items: start;
+        justify-content: space-between;
+
+        .first{
+
+            .logo {
+                display: flex;
+                flex-direction: row;
+                gap: 12px;
+                align-items: center;
+                justify-content: start;
+
+                .circleWrap {
+
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    width: 41px;
+                    height: 41px;
+                    border-radius: 50%;
+                    background-color: $color-logo-back-light;
+
+                    .logoTypography {
+
+                        color: $color-logo-typography-light;
+                        font-weight: 700;
+                        font-size: 26px;
+                    }
+                }
+
+                .logoText {
+                    color: $color-logo-text-light;
+                    font-size: 24px;
+                    font-weight: 700;
+                }
+            }
+
+            .textBlock {
+                text-align: left;
+                width: 391px;
+                margin-top: 17px;
+                color: $color-text-light;
+                font-size: 18px;
+                font-weight: 300;
+                line-height: 28px;
+            }
+        }
+
+        .second {
+            color: $color-text-light;
+            font-size: 16px;
+            font-weight: 300;
+            line-height: 28px;
+        }
+    }
+
+    .block {
+        display: flex;
+        flex-direction: column;
+        align-items: start;
+
+        .title {
+            color: $color-text-light;
+            font-size: 20px;
+            font-weight: 700;
+            line-height: 60px;
+        }
+
+        .element {
+            color: $color-text-light;
+            font-size: 18px;
+            font-weight: 300;
+            line-height: 38px;
+        }
+    }
+
+    .points {
+        position: absolute;
+        height: 115px;
+        left: 19px;
+        top: 72%
+    }
+}

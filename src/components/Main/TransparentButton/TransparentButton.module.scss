@@ -1,0 +1,36 @@
+@import 'src/styles';
+
+.button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 200px;
+    height: 56px;
+    background-color: $color-button-transparent-back;
+    border: solid 2px $color-button-transparent-border;
+    border-radius: 55px;
+
+    .container {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        gap: 15px;
+
+        .text {
+            font-size: 18px;
+            font-weight: 700;
+            line-height: 60px;
+            color: $color-button-transparent-text;
+        }
+
+        .icon {
+            height: 15px;
+        }
+    }
+}
+
+.button:hover {
+    background-color: $color-button-hover-back;
+    color: $color-button-hover-text;
+    cursor: pointer;
+}

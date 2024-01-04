@@ -1,0 +1,49 @@
+@import 'src/styles';
+
+.header {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    height: 150px;
+    width: 100%;
+    background-color: $color-back;
+
+    .elements {
+        width: 1218px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        height: 100%;
+        
+
+        .logo {
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            gap: 12px;
+
+            .circleWrap {
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                width: 41px;
+                height: 41px;
+                border-radius: 50%;
+                background-color: $color-logo-back;
+
+                .logoTypography {
+                    color: $color-logo-typography;
+                    font-size: 26px;
+                    font-weight: 700;
+                }
+            }
+
+            .logoText {
+                color: $color-logo-text;
+                font-size: 24px;
+                font-weight: 700;
+            }
+        }
+    }
+}
