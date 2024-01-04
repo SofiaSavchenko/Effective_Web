@@ -1,8 +1,8 @@
 import FilledButton from '../FilledButton/FilledButton';
-import classes from './VirtualBlock.module.scss'
+import classes from './Virtual.module.scss'
 
 
-const VirtualBlock = () => {
+const Virtual = () => {
     return <>
         <section className={classes.wrap}>
             <img className={classes.points} src='src/assets/points.svg'></img>
@@ -20,4 +20,4 @@ const VirtualBlock = () => {
     </>
 }
 
-export default VirtualBlock;
+export default Virtual;
